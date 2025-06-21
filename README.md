@@ -31,7 +31,9 @@ Inturn defining a vector in term of streamfunctions $\psi$ and potential $\phi$ 
 STREAMFUNCTION OPTIMIZATION FROM HELMHOLTZ DECOMPOSITION
 
 OVERVIEW
+
 #---------------------------------------------------------------------
+
 This project extends the classical Helmholtz–Hodge decomposition framework to solve an inverse problem in computational fluid dynamics: reconstructing the streamfunction $\psi$ from a known target velocity field (u, v) using optimization.
 
 Instead of simply decomposing a vector field into its divergence-free and curl-free
@@ -49,6 +51,7 @@ the given target field — suitable for inverse design, flow reconstruction, and
 assimilation.
 
 PROJECT SCOPE
+
 #---------------------------------------------------------------------
 
 - Takes in a 2D velocity field (u_{target}, v_{target})
@@ -61,6 +64,7 @@ PROJECT SCOPE
     - Convergence plots
 
 FORMULATONS
+
 #---------------------------------------------------------------------
 
 We assume:
@@ -89,6 +93,7 @@ $$
 
 
 EXTENSION
+
 #---------------------------------------------------------------------
 
 - Add support for unstructured grid
@@ -96,13 +101,16 @@ EXTENSION
 - An independent flow solver based on HHD
 
 LICENSE
+
 #---------------------------------------------------------------------
 
 MIT License. See LICENSE file.
 
 AUTHOR
+
 #---------------------------------------------------------------------
 
 Parth Patel
+
 rp.parth15@gmail.com
   
