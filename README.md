@@ -15,10 +15,10 @@ If seen from a perspective of fluid mechanics, this is described as a motion of 
 and in 2D, an Inverse problem (otherwise known as helmholtz decomposition) would look like
 
 $$
-\mathbf{\xi} = \nabla D + \nabla X \mathbf{R}
+\mathbf{\xi} = \nabla D + \nabla \times \mathbf{R}
 $$
 
-were, \nabla D is curl free and \nabla X \mathbf{R} is divergence free component respectively. These elements corresponds to
+were, $\nabla D$ is curl free and $\nabla \times \mathbf{R}$ is divergence free component respectively. These elements corresponds to
 
 $$
 \mathbf{F} = \nabla^\perp \psi + \nabla \phi
