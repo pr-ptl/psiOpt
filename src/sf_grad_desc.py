@@ -272,7 +272,6 @@ def plot_results(X, Y, psit, psi_opt, ls, lrs):
         ax2.set_ylabel('Learning Rate', fontsize=12, color='orange')
         ax2.tick_params(axis='y', labelcolor='orange')
         
-        # Combine legends
         lines1, labels1 = axes[1,1].get_legend_handles_labels()
         lines2, labels2 = ax2.get_legend_handles_labels()
         axes[1,1].legend(lines1 + lines2, labels1 + labels2, loc='upper right')
@@ -281,7 +280,6 @@ def plot_results(X, Y, psit, psi_opt, ls, lrs):
     plt.savefig('SGD_opt_results.jpg', dpi=400, bbox_inches='tight')
     plt.show()
     
-    # Convergence plot alone
     plt.figure(figsize=(10, 6))
     plt.semilogy(ls, 'g-', linewidth=2)
     plt.xlabel('Iteration', fontsize=14)
